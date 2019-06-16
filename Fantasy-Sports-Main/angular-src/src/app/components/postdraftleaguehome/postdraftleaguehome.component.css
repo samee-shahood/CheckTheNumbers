@@ -1,0 +1,33 @@
+.grid {
+    background-color: #303030;
+    height: 600px;
+    width: 1110px;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-template-rows: 295px 295px;
+    grid-gap: 10px 10px;
+  }
+  
+  .grid .scores {
+    background-color: #ffffff;
+    color: rgb(30, 30, 30);
+    text-align: center;
+  }
+
+  .grid .standings {
+    background-color: #ffffff;
+    color: rgb(30, 30, 30);
+    text-align: center;
+  }
+
+  .grid .unavailablelist {
+    background-color: #ffffff;
+    color: rgb(30, 30, 30);
+    text-align: center;
+  }
+
+  .grid .schedule {
+    background-color: #ffffff;
+    color: rgb(30, 30, 30);
+    text-align: center;
+  }

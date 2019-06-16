@@ -1,0 +1,21 @@
+<h2 class="page-header">Create Your League</h2>
+<form (submit)="onCreateSubmit()">
+  <div class="form-group">
+    <label>Name of your League</label>
+    <input type="text" [(ngModel)]="name" name="name" class="form-control">
+  </div>
+  <label for="numberofteams">Number of Teams: </label>
+  <select id="numberofteams" [(ngModel)]="numOfTeams" name="numOfTeams">
+    <option value=1>1</option>
+    <option value=2>2</option>
+    <option value=3>3</option>
+    <option value=4>4</option>
+    <option value=5>5</option>
+    <option value=6>6</option>
+    <option value=7>7</option>
+    <option value=8>8</option>
+    <option value=9>9</option>
+    <option value=10>10</option>
+  </select>
+  <input type="submit" class="btn btn-primary" value="Submit">
+</form>

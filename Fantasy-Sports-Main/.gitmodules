@@ -1,0 +1,4 @@
+[submodule "angular-src"]
+	path = angular-src
+	url = https://github.com/bradtraversy/meanauthapp
+	branch = master
