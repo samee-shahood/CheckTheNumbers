@@ -1,7 +1,7 @@
-#Draft Portal
+# Draft Portal
 The draft portal is used to run a draft between multiple users.
 
-##What it does
+## What it does
 It uses socket.IO to create a real time server which connects multiple users to the draft and conduct a draft between the users.
 
 Using socket.io, a login system is used to authenticate users by sending data from the database to the MongoDB.
@@ -12,6 +12,6 @@ Upon each pick made by the user, a turn is passed onto the next user and the pic
 
 Once the draft is complete, the server will send each team to the database.
 
-##How to run it
+## How to run it
 1) Ensure that the mongoDB is working
 2) In the command prompt, run node server.js
